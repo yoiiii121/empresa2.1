@@ -7,11 +7,16 @@ install:
     - pip install mockito
     - pip install coveralls
     - pip install radon
+    - pip install pep8 --use-mirrors
 # command to run tests
 script:
     - py.test --cov . --cov-report term-missing
     - radon cc ./src/. ./test/.
     - radon mi ./src/. ./test/.
     - radon raw ./src/. ./test/.
+    - pep8 --statistics --count ./src/. ./test/.
 after_success:
     - coveralls
+after_failure:
+    email:
+    - n_3_n3@hotmail.com
