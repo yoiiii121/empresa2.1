@@ -14,9 +14,9 @@ script:
     - radon cc ./src/. ./test/.
     - radon mi ./src/. ./test/.
     - radon raw ./src/. ./test/.
-    - pep8 ./src/. ./test/.
 after_success:
     - coveralls
+    - pep8 ./src/. ./test/.
 notifications:
     emails:
         - n_3_n3@hotmail.com
