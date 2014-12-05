@@ -1,2 +1,2 @@
 [![Build Status](https://travis-ci.org/yoiiii121/empresa2.1.svg?branch=master)](https://travis-ci.org/yoiiii121/empresa2.1)
-[![Coverage Status](https://coveralls.io/repos/yoiiii121/empresa2.1/badge.png)](https://coveralls.io/r/yoiiii121/empresa2.1)
+[![Coverage Status](https://coveralls.io/repos/yoiiii121/empresa2.1/badge.png?branch=master)](https://coveralls.io/r/yoiiii121/empresa2.1?branch=master)
